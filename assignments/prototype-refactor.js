@@ -166,7 +166,7 @@ class GameObject {
         super(attributes);
     this.name = attributes.name;
     this.healthPoints = attributes.healthPoints;
-    this.weapon = attributes.weapons;
+    this.weapons = attributes.weapons;
      }
 
      pulverize(target){
