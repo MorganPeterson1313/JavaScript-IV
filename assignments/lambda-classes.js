@@ -22,7 +22,7 @@ class Instructor extends Person{
     }
 
     demo(subject){
-   `Today we are learning about ${this.subject}`
+  return `Today we are learning about ${subject}`;
     }
     grade(student, subject){
 return `${student.name} recieves a perfect score on ${subject}`
@@ -111,3 +111,6 @@ console.log(projectManager.debugsCode(student, 'Proofs'));
 console.log(student);
 console.log(student.listsSubjects());
 
+
+console.log(instructor.demo('React'))
+console.log(student.sprintChallenge('Sprint05'))
